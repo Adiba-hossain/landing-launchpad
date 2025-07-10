@@ -59,7 +59,35 @@
     margin:37px auto;
 }
 .banner{
-    padding-top: 158px;
+    padding-top: 200px;
+}
+/* Section Styles */
+.main-part{
+    background-color: #f5f8ff;
+}
+/* action-section style */
+.action-section-content-image{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 159px;
+}
+.action-content{
+    align-content: center;
+}
+.action-tittle{
+    font-size: 42px;
+    padding-bottom: 23px;
+}
+.action-para{
+    max-width: 65%;
+    padding-bottom: 23px;
+    font-weight: 200;
+    color: #252432;
 }
 
 
+
+
+.img-content-radius{
+   border-radius: 48px; 
+}
