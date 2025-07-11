@@ -1,34 +1,39 @@
 /* font-styles */
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:bolder;
-  font-style:normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
 }
-.raleway-normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:bold;
-  font-style:normal;
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
+
 /* Shared styles */
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
+
 /* nav styles */
 .nav-tittle-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 130px 10px 170px; 
+    padding: 10px 130px 10px 170px;
 }
-.nav-tittle{
-    color:#4E47FF;
+
+.nav-tittle {
+    color: #4E47FF;
     font-size: 34px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     font-size: 16px;
     color: white;
@@ -36,58 +41,104 @@
     padding: 12px 36px;
     border-radius: 10px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: yellow;
     cursor: pointer;
-    color:black;
+    color: black;
     transition: ease-in-out 0.1s;
 }
+
 /* banner styles */
-.hero-section{
-    height: 100vh; /* Full screen height */
+.hero-section {
+    height: 100vh;
+    /* Full screen height */
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.banner-tittle{
+
+.banner-tittle {
     font-size: 65px;
     text-align: center;
 }
-.banner-button{
+
+.banner-button {
     display: block;
-    margin:37px auto;
+    margin: 37px auto;
 }
-.banner{
+
+.banner {
     padding-top: 200px;
 }
+
 /* Section Styles */
-.main-part{
+.main-part {
     background-color: #f5f8ff;
 }
+
 /* action-section style */
-.action-section-content-image{
+.action-section-content-image {
     display: flex;
     justify-content: space-around;
     padding-top: 159px;
 }
-.action-content{
+
+.action-content {
     align-content: center;
 }
-.action-tittle{
+
+.action-tittle {
     font-size: 42px;
     padding-bottom: 23px;
 }
-.action-para{
+
+.action-para {
     max-width: 65%;
     padding-bottom: 23px;
     font-weight: 200;
     color: #252432;
 }
 
+.img-content-radius {
+    border-radius: 48px;
+}
 
+/* pro-users section */
+.pro-users {
+    margin: 116px 159px 137px 141px;
+    padding: 50px 80px;
+    background-color: #E5E7FF;
+    border-radius: 24px;
+}
 
+.pro-users-header-title {
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 40px;
+    color: #252432;
+}
 
-.img-content-radius{
-   border-radius: 48px; 
+.pro-users-ti-sub {
+    display: flex;
+    gap: 158px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.pro-users-title1,
+.pro-users-title2,
+.pro-users-title3 {
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+.pro-users-subtitle1,
+.pro-users-subtitle2,
+.pro-users-subtitle3 {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color: #252432;
 }
