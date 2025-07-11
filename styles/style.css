@@ -51,8 +51,7 @@
 
 /* banner styles */
 .hero-section {
-    height: 100vh;
-    /* Full screen height */
+    height: 100vh; /* Full screen height */
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
@@ -107,7 +106,7 @@
 
 /* pro-users section */
 .pro-users {
-    margin: 116px 159px 137px 141px; /*will do 137 to zero */
+    margin: 116px 159px 0px 141px; /*will do 137 to zero */
     padding: 50px 80px;
     background-color: #E5E7FF;
     border-radius: 24px;
@@ -141,11 +140,68 @@
     text-align: center;
     color: #252432;
 }
+
+/* Review section styles */
+.review-container{
+    padding-bottom: 137px;
+}
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    padding: 137px 0px 50px 0px;
+}
+.review-body{
+    background-color: #FAFCFF;
+    border-radius: 14px;
+    padding: 24px;
+}
+.review-flex{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+}
+.review-flex2{
+    display: flex;
+    gap: 12px;
+}
+.review-block{
+    display: block; 
+}
+.review-body-title{
+    padding-top: 24px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.review-body-des{
+    padding-bottom: 24px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.review-body-img{
+    border-radius: 9999px;
+}
+.review-block{
+    align-content: center;
+}
+.reviewer-name{
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+.reviewer-date{
+    font-weight: 150;
+}
+
+
+
+
+
 /* footer styles */
 .foot-content{
     text-align: center;
 }
 footer h2{
+    padding-top: 137px;
     color: #4E47FF;
     font-size: 100px;
     font-weight: bolder;
