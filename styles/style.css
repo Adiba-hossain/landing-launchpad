@@ -107,12 +107,11 @@
 
 /* pro-users section */
 .pro-users {
-    margin: 116px 159px 137px 141px;
+    margin: 116px 159px 137px 141px; /*will do 137 to zero */
     padding: 50px 80px;
     background-color: #E5E7FF;
     border-radius: 24px;
 }
-
 .pro-users-header-title {
     text-align: center;
     font-size: 38px;
@@ -141,4 +140,33 @@
     font-weight: lighter;
     text-align: center;
     color: #252432;
+}
+/* footer styles */
+.foot-content{
+    text-align: center;
+}
+footer h2{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+}
+footer p{
+color: #8987A1;
+width: 530px;
+align-items: center;
+margin: 0 auto;
+font-weight: lighter;
+}
+.foot-item-lists{
+    display: flex;
+    margin: 20px 542px 103px;
+}
+.foot-item-lists li{
+    list-style: none;
+    margin: 0 auto;
+}
+.foot-item-lists li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: lighter;
 }
