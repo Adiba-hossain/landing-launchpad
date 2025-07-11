@@ -191,10 +191,43 @@
 .reviewer-date{
     font-weight: 150;
 }
+/* contact part styles */
+ .contact-container{ 
+    padding: 71px 300px;
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
+/* Left Side */
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: 700px;
+}
 
-
-
+.contact-form label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-form input,
+.contact-form textarea{
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  background-color: #fff;
+  width: 150%;
+  resize: none;
+}
+.contact-form button{
+    width: 168%;
+}
 
 /* footer styles */
 .foot-content{
